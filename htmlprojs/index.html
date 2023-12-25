@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Slack for College</title>
+    <!-- Include necessary CSS files -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Slack for College</h1>
+        <!-- Navigation or Menu Bar -->
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#chat">Chat</a></li>
+                <li><a href="#profile">Profile</a></li>
+                <!-- Other navigation links -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        <!-- Workspace Creation or Joining Section -->
+        <section id="workspace">
+            <h2>Create or Join Workspace</h2>
+            <!-- Form to create/join workspace -->
+            <form id="workspaceForm">
+                <input type="text" id="workspaceName" placeholder="Enter workspace name">
+                <input type="email" id="email" placeholder="Enter email">
+                <!-- Other form fields -->
+                <button type="submit">Create/Join</button>
+            </form>
+        </section>
+
+        <!-- Chat Room Section -->
+        <section id="chatRoom">
+            <h2>Chat Room</h2>
+            <!-- Display chat messages -->
+            <div id="messages">
+                <!-- Individual chat messages -->
+                <!-- Example: <div class="message"><span class="user">User:</span> Hello!</div> -->
+            </div>
+            <!-- Form to send messages -->
+            <form id="messageForm">
+                <input type="text" id="messageInput" placeholder="Type your message...">
+                <button type="submit">Send</button>
+                <!-- Include options for sending media, emojis, etc. -->
+                <!-- Example: <input type="file" id="mediaInput"><button type="button" id="emojiButton">😊</button> -->
+            </form>
+        </section>
+
+        <!-- User List Section -->
+        <section id="userList">
+            <h2>Users in Workspace</h2>
+            <!-- Display list of users in the workspace -->
+            <ul>
+                <!-- Example: <li>John Doe</li> -->
+            </ul>
+        </section>
+
+        <!-- Workspace Settings Section -->
+        <section id="workspaceSettings">
+            <h2>Workspace Settings</h2>
+            <!-- Form to manage workspace settings -->
+            <form id="settingsForm">
+                <!-- Fields for managing workspace settings -->
+                <!-- Example: <input type="text" id="workspaceDescription" placeholder="Workspace description"> -->
+                <button type="submit">Save Settings</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 Slack for College. All rights reserved.</p>
+    </footer>
+
+    <!-- Include necessary JavaScript files -->
+    <script src="scripts.js"></script>
+</body>
+
+</html>

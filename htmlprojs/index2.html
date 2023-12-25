@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Slack for College</title>
+    <!-- Include necessary CSS files -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <!-- Common header content -->
+        <h1>Welcome to Slack for College</h1>
+        <nav>
+            <!-- Navigation links -->
+            <ul>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#workspace">Create/Join Workspace</a></li>
+                <li><a href="#chatRoom">Chat Room</a></li>
+                <li><a href="#userProfile">User Profile</a></li>
+                <li><a href="#settings">Settings</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        <!-- Login Section -->
+        <section id="login">
+            <!-- Login form -->
+            <form id="loginForm">
+                <!-- Input fields for username and password -->
+                <input type="text" id="username" placeholder="Username">
+                <input type="password" id="password" placeholder="Password">
+                <button type="submit">Login</button>
+            </form>
+        </section>
+
+        <!-- Workspace Creation or Joining Section -->
+        <section id="workspace">
+            <!-- Workspace form -->
+            <form id="workspaceForm">
+                <!-- Input fields for workspace creation/joining -->
+                <input type="text" id="workspaceName" placeholder="Enter workspace name">
+                <input type="email" id="email" placeholder="Enter email">
+                <button type="submit">Create/Join Workspace</button>
+            </form>
+        </section>
+
+        <!-- Chat Room Section -->
+        <section id="chatRoom">
+            <!-- Display chat messages -->
+            <div id="messages">
+                <!-- Chat messages -->
+                <!-- Example: <div class="message"><span class="user">User:</span> Hello!</div> -->
+            </div>
+            <!-- Message input form -->
+            <form id="messageForm">
+                <input type="text" id="messageInput" placeholder="Type your message...">
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+        <!-- User Profile Section -->
+        <section id="userProfile">
+            <!-- User profile details -->
+            <!-- Example: <h2>User Profile</h2><p>Username: JohnDoe</p><p>Email: john@example.com</p> -->
+        </section>
+
+        <!-- Settings Section -->
+        <section id="settings">
+            <!-- Settings form -->
+            <form id="settingsForm">
+                <!-- Input fields for settings -->
+                <!-- Example: <input type="text" id="workspaceDescription" placeholder="Workspace description"> -->
+                <button type="submit">Save Settings</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 Slack for College. All rights reserved.</p>
+    </footer>
+
+    <!-- Include necessary JavaScript files -->
+    <script src="scripts.js"></script>
+</body>
+
+</html>
